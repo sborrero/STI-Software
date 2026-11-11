@@ -9,7 +9,7 @@ El objetivo es facilitar la experimentación, la visualización de fenómenos y 
 | Área | Contenido |
 |---|---|
 | [Audio](audio/) | Generación de señales, muestreo, digitalización, análisis espectral y comparación PCM. |
-| [Ficheros digitales](ficheros_digitales/) | Análisis de archivos multimedia, formatos, metadatos y estructuras internas. |
+| [Media Files](media_files/) | Análisis de archivos multimedia, formatos, metadatos y estructuras internas. |
 | [Megafonía](megafonia/) | Diseño de instalaciones, distribución de altavoces, cobertura y cálculo de nivel SPL. |
 | [Televisión](television/) | Señales de vídeo analógico y digital, barrido, muestreo, crominancia y compresión. |
 | [Acústica – RT60](TR60/) | Cálculo del tiempo de reverberación por bandas de octava mediante Sabine, Eyring y Millington-Sette. |
