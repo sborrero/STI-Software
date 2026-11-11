@@ -1,0 +1,1571 @@
+{
+  "materials": [
+    {
+      "Material": "Grava, suelo flojo y húmedo",
+      "125": 0.25,
+      "250": 0.6,
+      "500": 0.65,
+      "1000": 0.7,
+      "2000": 0.75,
+      "4000": 0.8,
+      "selector": "Grava, suelo flojo y húmedo"
+    },
+    {
+      "Material": "Hormigón,  bloques",
+      "125": 0.3,
+      "250": 0.45,
+      "500": 0.3,
+      "1000": 0.25,
+      "2000": 0.4,
+      "4000": 0.25,
+      "selector": "Hormigón,  bloques"
+    },
+    {
+      "Material": "Hormigón, enlucido",
+      "125": 0.004,
+      "250": 0.004,
+      "500": 0.005,
+      "1000": 0.006,
+      "2000": 0.008,
+      "4000": 0.015,
+      "selector": "Hormigón, enlucido"
+    },
+    {
+      "Material": "Hormigón normal",
+      "125": 0.01,
+      "250": 0.012,
+      "500": 0.02,
+      "1000": 0.02,
+      "2000": 0.023,
+      "4000": 0.035,
+      "selector": "Hormigón normal"
+    },
+    {
+      "Material": "Hormigón, pintado",
+      "125": 0.01,
+      "250": 0.01,
+      "500": 0.01,
+      "1000": 0.02,
+      "2000": 0.02,
+      "4000": 0.02,
+      "selector": "Hormigón, pintado"
+    },
+    {
+      "Material": "Hormigón enlucido con cemento",
+      "125": 0.01,
+      "250": 0.01,
+      "500": 0.02,
+      "1000": 0.02,
+      "2000": 0.02,
+      "4000": 0.01,
+      "selector": "Hormigón enlucido con cemento"
+    },
+    {
+      "Material": "Hormigón en bloques pintado",
+      "125": 0.1,
+      "250": 0.09,
+      "500": 0.08,
+      "1000": 0.09,
+      "2000": 0.1,
+      "4000": 0.1,
+      "selector": "Hormigón en bloques pintado"
+    },
+    {
+      "Material": "Hormigón de espuma acústica de 940/m3",
+      "125": 0.39,
+      "250": 0.39,
+      "500": 0.39,
+      "1000": 0.42,
+      "2000": 0.42,
+      "4000": 0.39,
+      "selector": "Hormigón de espuma acústica de 940/m3"
+    },
+    {
+      "Material": "Ladrillo, muro con enlucido de yeso",
+      "125": 0.013,
+      "250": 0.015,
+      "500": 0.02,
+      "1000": 0.028,
+      "2000": 0.04,
+      "4000": 0.05,
+      "selector": "Ladrillo, muro con enlucido de yeso"
+    },
+    {
+      "Material": "Ladrillo, muro visto",
+      "125": 0.024,
+      "250": 0.025,
+      "500": 0.032,
+      "1000": 0.042,
+      "2000": 0.05,
+      "4000": 0.07,
+      "selector": "Ladrillo, muro visto"
+    },
+    {
+      "Material": "Ladrillo pintado",
+      "125": 0.012,
+      "250": 0.014,
+      "500": 0.017,
+      "1000": 0.02,
+      "2000": 0.023,
+      "4000": 0.025,
+      "selector": "Ladrillo pintado"
+    },
+    {
+      "Material": "Alfombra de goma",
+      "125": 0.04,
+      "250": 0.04,
+      "500": 0.08,
+      "1000": 0.12,
+      "2000": 0.03,
+      "4000": 0.1,
+      "selector": "Alfombra de goma"
+    },
+    {
+      "Material": "Alfombra fibra vegetal",
+      "125": 0.08,
+      "250": 0.125,
+      "500": 0.17,
+      "1000": 0.235,
+      "2000": 0.3,
+      "4000": 0.3,
+      "selector": "Alfombra fibra vegetal"
+    },
+    {
+      "Material": "Alfombra fibra de coco",
+      "125": 0.11,
+      "250": 0.13,
+      "500": 0.17,
+      "1000": 0.4,
+      "2000": 0.29,
+      "4000": 0.29,
+      "selector": "Alfombra fibra de coco"
+    },
+    {
+      "Material": "Alfombra forrada de fieltro",
+      "125": 0.11,
+      "250": 0.14,
+      "500": 0.37,
+      "1000": 0.43,
+      "2000": 0.27,
+      "4000": 0.27,
+      "selector": "Alfombra forrada de fieltro"
+    },
+    {
+      "Material": "Moqueta",
+      "125": 0.13,
+      "250": 0.06,
+      "500": 0.13,
+      "1000": 0.2,
+      "2000": 0.46,
+      "4000": 0.7,
+      "selector": "Moqueta [1]"
+    },
+    {
+      "Material": "Moqueta",
+      "125": 0.12,
+      "250": 0.1,
+      "500": 0.18,
+      "1000": 0.2,
+      "2000": 0.46,
+      "4000": 0.72,
+      "selector": "Moqueta [2]"
+    },
+    {
+      "Material": "Moqueta",
+      "125": 0.12,
+      "250": 0.1,
+      "500": 0.2,
+      "1000": 0.3,
+      "2000": 0.64,
+      "4000": 0.93,
+      "selector": "Moqueta [3]"
+    },
+    {
+      "Material": "Moqueta sobre suelo de cemento",
+      "125": 0.09,
+      "250": 0.08,
+      "500": 0.21,
+      "1000": 0.26,
+      "2000": 0.27,
+      "4000": 0.37,
+      "selector": "Moqueta sobre suelo de cemento"
+    },
+    {
+      "Material": "Moqueta sobre 3 mm de fieltro",
+      "125": 0.11,
+      "250": 0.14,
+      "500": 0.37,
+      "1000": 0.43,
+      "2000": 0.27,
+      "4000": 0.25,
+      "selector": "Moqueta sobre 3 mm de fieltro"
+    },
+    {
+      "Material": "Moqueta sobre pared",
+      "125": 0.09,
+      "250": 0.08,
+      "500": 0.21,
+      "1000": 0.27,
+      "2000": 0.27,
+      "4000": 0.37,
+      "selector": "Moqueta sobre pared"
+    },
+    {
+      "Material": "Moqueta sobre fieltro sobre hormigón",
+      "125": 0.11,
+      "250": 0.14,
+      "500": 0.37,
+      "1000": 0.43,
+      "2000": 0.27,
+      "4000": 0.25,
+      "selector": "Moqueta sobre fieltro sobre hormigón"
+    },
+    {
+      "Material": "Moqueta sobre filetro con tabla de madera de 2 cm",
+      "125": 0.11,
+      "250": 0.13,
+      "500": 0.28,
+      "1000": 0.45,
+      "2000": 0.29,
+      "4000": 0.29,
+      "selector": "Moqueta sobre filetro con tabla de madera de 2 cm"
+    },
+    {
+      "Material": "Moqueta de goma sobre hormigón",
+      "125": 0.04,
+      "250": 0.04,
+      "500": 0.08,
+      "1000": 0.12,
+      "2000": 0.13,
+      "4000": 0.1,
+      "selector": "Moqueta de goma sobre hormigón"
+    },
+    {
+      "Material": "Tela de algodón lisa en pared",
+      "125": 0.05,
+      "250": 0.08,
+      "500": 0.12,
+      "1000": 0.22,
+      "2000": 0.32,
+      "4000": 0.32,
+      "selector": "Tela de algodón lisa en pared"
+    },
+    {
+      "Material": "Tela fruncida a 2 cm de la pared",
+      "125": 0.5,
+      "250": 0.22,
+      "500": 0.4,
+      "1000": 0.54,
+      "2000": 0.52,
+      "4000": 0.52,
+      "selector": "Tela fruncida a 2 cm de la pared"
+    },
+    {
+      "Material": "Tela de arpillera sobre madera",
+      "125": 0.3,
+      "250": 0.27,
+      "500": 0.27,
+      "1000": 0.26,
+      "2000": 0.15,
+      "4000": 0.15,
+      "selector": "Tela de arpillera sobre madera"
+    },
+    {
+      "Material": "Tejido de algodón de 360 gr/m",
+      "125": 0.03,
+      "250": 0.04,
+      "500": 0.11,
+      "1000": 0.17,
+      "2000": 0.24,
+      "4000": 0.35,
+      "selector": "Tejido de algodón de 360 gr/m"
+    },
+    {
+      "Material": "Tejido de algodón de 500 gr/m",
+      "125": 0.04,
+      "250": 0.07,
+      "500": 0.13,
+      "1000": 0.22,
+      "2000": 0.33,
+      "4000": 0.35,
+      "selector": "Tejido de algodón de 500 gr/m"
+    },
+    {
+      "Material": "Tejido de terciopelo 650 gr/m",
+      "125": 0.05,
+      "250": 0.12,
+      "500": 0.35,
+      "1000": 0.45,
+      "2000": 0.38,
+      "4000": 0.36,
+      "selector": "Tejido de terciopelo 650 gr/m"
+    },
+    {
+      "Material": "Tejido de terciopelo a 10 cm de la pared",
+      "125": 0.08,
+      "250": 0.29,
+      "500": 0.44,
+      "1000": 0.5,
+      "2000": 0.4,
+      "4000": 0.35,
+      "selector": "Tejido de terciopelo a 10 cm de la pared"
+    },
+    {
+      "Material": "Tejido de algodón 500 gr/m cubriendo 7/8",
+      "125": 0.03,
+      "250": 0.12,
+      "500": 0.15,
+      "1000": 0.27,
+      "2000": 0.37,
+      "4000": 0.42,
+      "selector": "Tejido de algodón 500 gr/m cubriendo 7/8"
+    },
+    {
+      "Material": "Tejido de algodón 500 gr/m cubriendo ¾",
+      "125": 0.04,
+      "250": 0.23,
+      "500": 0.4,
+      "1000": 0.54,
+      "2000": 0.53,
+      "4000": 0.4,
+      "selector": "Tejido de algodón 500 gr/m cubriendo ¾"
+    },
+    {
+      "Material": "Tejido de algodón 500 gr/m cubriendo ½",
+      "125": 0.07,
+      "250": 0.37,
+      "500": 0.49,
+      "1000": 0.81,
+      "2000": 0.65,
+      "4000": 0.54,
+      "selector": "Tejido de algodón 500 gr/m cubriendo ½"
+    },
+    {
+      "Material": "Terciopelo liso",
+      "125": 0.05,
+      "250": 0.12,
+      "500": 0.35,
+      "1000": 0.45,
+      "2000": 0.38,
+      "4000": 0.38,
+      "selector": "Terciopelo liso"
+    },
+    {
+      "Material": "Terciopelo fruncido",
+      "125": 0.14,
+      "250": 0.35,
+      "500": 0.55,
+      "1000": 0.72,
+      "2000": 0.7,
+      "4000": 0.7,
+      "selector": "Terciopelo fruncido [1]"
+    },
+    {
+      "Material": "Terciopelo liso colgado a 20 cm de la pared",
+      "125": 0.08,
+      "250": 0.29,
+      "500": 0.44,
+      "1000": 0.5,
+      "2000": 0.4,
+      "4000": 0.35,
+      "selector": "Terciopelo liso colgado a 20 cm de la pared"
+    },
+    {
+      "Material": "Terciopelo fruncido",
+      "125": 0.07,
+      "250": 0.13,
+      "500": 0.49,
+      "1000": 0.81,
+      "2000": 0.66,
+      "4000": 0.54,
+      "selector": "Terciopelo fruncido [2]"
+    },
+    {
+      "Material": "Butaca sencilla de madera",
+      "125": 0.02,
+      "250": 0.02,
+      "500": 0.03,
+      "1000": 0.035,
+      "2000": 0.038,
+      "4000": 0.038,
+      "selector": "Butaca sencilla de madera"
+    },
+    {
+      "Material": "Butaca con  asientos y espalda blanda tapizada",
+      "125": 0.09,
+      "250": 0.12,
+      "500": 0.14,
+      "1000": 0.16,
+      "2000": 0.15,
+      "4000": 0.16,
+      "selector": "Butaca con  asientos y espalda blanda tapizada"
+    },
+    {
+      "Material": "Butaca tapizada",
+      "125": 0.3,
+      "250": 0.32,
+      "500": 0.27,
+      "1000": 0.3,
+      "2000": 0.33,
+      "4000": 0.33,
+      "selector": "Butaca tapizada"
+    },
+    {
+      "Material": "Butaca tapizada con plástico",
+      "125": 0.2,
+      "250": 0.2,
+      "500": 0.25,
+      "1000": 0.3,
+      "2000": 0.3,
+      "4000": 0.3,
+      "selector": "Butaca tapizada con plástico"
+    },
+    {
+      "Material": "Butaca de madera",
+      "125": 0.03,
+      "250": 0.04,
+      "500": 0.05,
+      "1000": 0.07,
+      "2000": 0.08,
+      "4000": 0.08,
+      "selector": "Butaca de madera"
+    },
+    {
+      "Material": "Espectador en asiento de madera",
+      "125": 0.15,
+      "250": 0.25,
+      "500": 0.35,
+      "1000": 0.38,
+      "2000": 0.38,
+      "4000": 0.35,
+      "selector": "Espectador en asiento de madera"
+    },
+    {
+      "Material": "Espectador en asiento con respaldo tapizado",
+      "125": 0.3,
+      "250": 0.33,
+      "500": 0.38,
+      "1000": 0.46,
+      "2000": 0.39,
+      "4000": 0.35,
+      "selector": "Espectador en asiento con respaldo tapizado"
+    },
+    {
+      "Material": "Espectador en asiento tapizado",
+      "125": 0.3,
+      "250": 0.35,
+      "500": 0.42,
+      "1000": 0.46,
+      "2000": 0.48,
+      "4000": 0.4,
+      "selector": "Espectador en asiento tapizado"
+    },
+    {
+      "Material": "Espectador",
+      "125": 0.36,
+      "250": 0.43,
+      "500": 0.47,
+      "1000": 0.44,
+      "2000": 0.49,
+      "4000": 0.49,
+      "selector": "Espectador"
+    },
+    {
+      "Material": "Feligreses en bancos de una iglesia",
+      "125": 0.2,
+      "250": 0.25,
+      "500": 0.31,
+      "1000": 0.35,
+      "2000": 0.33,
+      "4000": 0.3,
+      "selector": "Feligreses en bancos de una iglesia"
+    },
+    {
+      "Material": "Músico con instrumento musical",
+      "125": 0.4,
+      "250": 0.85,
+      "500": 1.15,
+      "1000": 1.4,
+      "2000": 1.2,
+      "4000": 1.2,
+      "selector": "Músico con instrumento musical"
+    },
+    {
+      "Material": "Pupitre de madera",
+      "125": 0.04,
+      "250": 0.04,
+      "500": 0.04,
+      "1000": 0.04,
+      "2000": 0.04,
+      "4000": 0.04,
+      "selector": "Pupitre de madera"
+    },
+    {
+      "Material": "Pupitre y silla de madera con alumno",
+      "125": 0.24,
+      "250": 0.315,
+      "500": 0.39,
+      "1000": 0.41,
+      "2000": 0.43,
+      "4000": 0.43,
+      "selector": "Pupitre y silla de madera con alumno"
+    },
+    {
+      "Material": "Público general sentado",
+      "125": 0.3,
+      "250": 0.32,
+      "500": 0.37,
+      "1000": 0.44,
+      "2000": 0.36,
+      "4000": 0.36,
+      "selector": "Público general sentado"
+    },
+    {
+      "Material": "Rejilla de ventilación",
+      "125": 0.5,
+      "250": 0.5,
+      "500": 0.4,
+      "1000": 0.35,
+      "2000": 0.3,
+      "4000": 0.25,
+      "selector": "Rejilla de ventilación"
+    },
+    {
+      "Material": "Ventana abierta",
+      "125": 1.0,
+      "250": 1.0,
+      "500": 1.0,
+      "1000": 1.0,
+      "2000": 1.0,
+      "4000": 1.0,
+      "selector": "Ventana abierta"
+    },
+    {
+      "Material": "Vidrio, láminas",
+      "125": 0.18,
+      "250": 0.06,
+      "500": 0.04,
+      "1000": 0.03,
+      "2000": 0.02,
+      "4000": 0.02,
+      "selector": "Vidrio, láminas"
+    },
+    {
+      "Material": "Vidrio de ventana normal",
+      "125": 0.035,
+      "250": 0.04,
+      "500": 0.027,
+      "1000": 0.03,
+      "2000": 0.02,
+      "4000": 0.02,
+      "selector": "Vidrio de ventana normal"
+    },
+    {
+      "Material": "Vidrio de espejo",
+      "125": 0.035,
+      "250": 0.025,
+      "500": 0.019,
+      "1000": 0.012,
+      "2000": 0.07,
+      "4000": 0.04,
+      "selector": "Vidrio de espejo"
+    },
+    {
+      "Material": "Agua",
+      "125": 0.01,
+      "250": 0.01,
+      "500": 0.01,
+      "1000": 0.01,
+      "2000": 0.02,
+      "4000": 0.02,
+      "selector": "Agua"
+    },
+    {
+      "Material": "Aire ( 40% humedad relativa)",
+      "125": 0.0,
+      "250": 0.0,
+      "500": 0.0,
+      "1000": 0.0,
+      "2000": 0.0016,
+      "4000": 0.009,
+      "selector": "Aire ( 40% humedad relativa)"
+    },
+    {
+      "Material": "Aire ( 50% humedad relativa)",
+      "125": 0.0,
+      "250": 0.0,
+      "500": 0.0,
+      "1000": 0.0,
+      "2000": 0.0012,
+      "4000": 0.008,
+      "selector": "Aire ( 50% humedad relativa)"
+    },
+    {
+      "Material": "Aire ( 60% humedad relativa)",
+      "125": 0.0,
+      "250": 0.0,
+      "500": 0.0,
+      "1000": 0.0,
+      "2000": 0.001,
+      "4000": 0.007,
+      "selector": "Aire ( 60% humedad relativa)"
+    },
+    {
+      "Material": "Arena seca",
+      "125": 0.15,
+      "250": 0.35,
+      "500": 0.4,
+      "1000": 0.5,
+      "2000": 0.55,
+      "4000": 0.8,
+      "selector": "Arena seca"
+    },
+    {
+      "Material": "Arena húmeda",
+      "125": 0.05,
+      "250": 0.05,
+      "500": 0.05,
+      "1000": 0.05,
+      "2000": 0.05,
+      "4000": 0.15,
+      "selector": "Arena húmeda"
+    },
+    {
+      "Material": "Contrachapado de madera sobre pared",
+      "125": 0.05,
+      "250": 0.06,
+      "500": 0.06,
+      "1000": 0.1,
+      "2000": 0.1,
+      "4000": 0.1,
+      "selector": "Contrachapado de madera sobre pared"
+    },
+    {
+      "Material": "Contrachapado de madera a 5 cm de la pared",
+      "125": 0.18,
+      "250": 0.26,
+      "500": 0.24,
+      "1000": 0.1,
+      "2000": 0.1,
+      "4000": 0.1,
+      "selector": "Contrachapado de madera a 5 cm de la pared"
+    },
+    {
+      "Material": "Contrachapado de madera de 6mm y 5 cm de la pared",
+      "125": 0.25,
+      "250": 0.34,
+      "500": 0.18,
+      "1000": 0.1,
+      "2000": 0.1,
+      "4000": 0.1,
+      "selector": "Contrachapado de madera de 6mm y 5 cm de la pared"
+    },
+    {
+      "Material": "Corcho, en general",
+      "125": 0.12,
+      "250": 0.27,
+      "500": 0.72,
+      "1000": 0.79,
+      "2000": 0.76,
+      "4000": 0.77,
+      "selector": "Corcho, en general"
+    },
+    {
+      "Material": "Corcho, gránulos unidos con aglomerante",
+      "125": 0.12,
+      "250": 0.27,
+      "500": 0.72,
+      "1000": 0.9,
+      "2000": 0.075,
+      "4000": 0.65,
+      "selector": "Corcho, gránulos unidos con aglomerante"
+    },
+    {
+      "Material": "Corcho de pavimentos, encerado y pulido",
+      "125": 0.04,
+      "250": 0.03,
+      "500": 0.05,
+      "1000": 0.11,
+      "2000": 0.07,
+      "4000": 0.02,
+      "selector": "Corcho de pavimentos, encerado y pulido"
+    },
+    {
+      "Material": "Corcho de pavimentos, encolado",
+      "125": 0.08,
+      "250": 0.02,
+      "500": 0.08,
+      "1000": 0.19,
+      "2000": 0.21,
+      "4000": 0.22,
+      "selector": "Corcho de pavimentos, encolado"
+    },
+    {
+      "Material": "Corcho aglomerado",
+      "125": 0.12,
+      "250": 0.28,
+      "500": 0.85,
+      "1000": 0.82,
+      "2000": 0.78,
+      "4000": 0.78,
+      "selector": "Corcho aglomerado"
+    },
+    {
+      "Material": "Enlucido rugoso de cemento",
+      "125": 0.025,
+      "250": 0.026,
+      "500": 0.06,
+      "1000": 0.085,
+      "2000": 0.043,
+      "4000": 0.056,
+      "selector": "Enlucido rugoso de cemento"
+    },
+    {
+      "Material": "Entarimado de madera",
+      "125": 0.09,
+      "250": 0.09,
+      "500": 0.08,
+      "1000": 0.09,
+      "2000": 0.1,
+      "4000": 0.07,
+      "selector": "Entarimado de madera"
+    },
+    {
+      "Material": "Enlucido de yeso y vermiculita",
+      "125": 0.12,
+      "250": 0.1,
+      "500": 0.07,
+      "1000": 0.09,
+      "2000": 0.07,
+      "4000": 0.07,
+      "selector": "Enlucido de yeso y vermiculita"
+    },
+    {
+      "Material": "Fibra de amianto",
+      "125": 0.025,
+      "250": 0.55,
+      "500": 0.65,
+      "1000": 0.75,
+      "2000": 0.8,
+      "4000": 0.8,
+      "selector": "Fibra de amianto"
+    },
+    {
+      "Material": "Fibra de madera comprimida",
+      "125": 0.04,
+      "250": 0.24,
+      "500": 0.54,
+      "1000": 0.88,
+      "2000": 0.53,
+      "4000": 0.7,
+      "selector": "Fibra de madera comprimida"
+    },
+    {
+      "Material": "Fibra de madera mineralizada",
+      "125": 0.1,
+      "250": 0.19,
+      "500": 0.4,
+      "1000": 0.79,
+      "2000": 0.55,
+      "4000": 0.77,
+      "selector": "Fibra de madera mineralizada"
+    },
+    {
+      "Material": "Fibra vegetal, estera",
+      "125": 0.08,
+      "250": 0.125,
+      "500": 0.17,
+      "1000": 0.235,
+      "2000": 0.3,
+      "4000": 0.3,
+      "selector": "Fibra vegetal, estera"
+    },
+    {
+      "Material": "Fibra de vidrio",
+      "125": 0.2,
+      "250": 0.35,
+      "500": 0.65,
+      "1000": 0.8,
+      "2000": 0.75,
+      "4000": 0.65,
+      "selector": "Fibra de vidrio [1]"
+    },
+    {
+      "Material": "Fibra de vidrio",
+      "125": 0.38,
+      "250": 0.63,
+      "500": 0.78,
+      "1000": 0.87,
+      "2000": 0.83,
+      "4000": 0.77,
+      "selector": "Fibra de vidrio [2]"
+    },
+    {
+      "Material": "Fibra de vidrio",
+      "125": 0.85,
+      "250": 0.85,
+      "500": 0.85,
+      "1000": 0.85,
+      "2000": 0.85,
+      "4000": 0.85,
+      "selector": "Fibra de vidrio [3]"
+    },
+    {
+      "Material": "Fibra de vidrio",
+      "125": 0.75,
+      "250": 0.96,
+      "500": 0.96,
+      "1000": 0.9,
+      "2000": 0.84,
+      "4000": 0.74,
+      "selector": "Fibra de vidrio [4]"
+    },
+    {
+      "Material": "Fibra de vidrio afieltrada",
+      "125": 0.41,
+      "250": 0.6,
+      "500": 0.99,
+      "1000": 0.99,
+      "2000": 0.84,
+      "4000": 0.81,
+      "selector": "Fibra de vidrio afieltrada"
+    },
+    {
+      "Material": "Fibra de vidrio",
+      "125": 0.32,
+      "250": 0.46,
+      "500": 0.66,
+      "1000": 0.7,
+      "2000": 0.69,
+      "4000": 0.69,
+      "selector": "Fibra de vidrio [5]"
+    },
+    {
+      "Material": "Fieltro ligero",
+      "125": 0.02,
+      "250": 0.04,
+      "500": 0.1,
+      "1000": 0.21,
+      "2000": 0.57,
+      "4000": 0.92,
+      "selector": "Fieltro ligero"
+    },
+    {
+      "Material": "Fieltro de pelo",
+      "125": 0.18,
+      "250": 0.36,
+      "500": 0.71,
+      "1000": 0.79,
+      "2000": 0.82,
+      "4000": 0.85,
+      "selector": "Fieltro de pelo"
+    },
+    {
+      "Material": "Fieltro de pelo de 2,5 cm con intervalos de aire de 5 cm",
+      "125": 0.35,
+      "250": 0.62,
+      "500": 0.88,
+      "1000": 0.92,
+      "2000": 0.78,
+      "4000": 0.84,
+      "selector": "Fieltro de pelo de 2,5 cm con intervalos de aire de 5 cm"
+    },
+    {
+      "Material": "Fieltro de lana",
+      "125": 0.09,
+      "250": 0.34,
+      "500": 0.55,
+      "1000": 0.66,
+      "2000": 0.52,
+      "4000": 0.39,
+      "selector": "Fieltro de lana"
+    },
+    {
+      "Material": "Fieltro de lana de roca",
+      "125": 0.17,
+      "250": 0.5,
+      "500": 0.84,
+      "1000": 0.87,
+      "2000": 0.9,
+      "4000": 0.9,
+      "selector": "Fieltro de lana de roca"
+    },
+    {
+      "Material": "Fieltro tipo vitrofib",
+      "125": 0.22,
+      "250": 0.56,
+      "500": 0.78,
+      "1000": 0.9,
+      "2000": 0.81,
+      "4000": 0.81,
+      "selector": "Fieltro tipo vitrofib"
+    },
+    {
+      "Material": "Fieltro",
+      "125": 0.13,
+      "250": 0.31,
+      "500": 0.56,
+      "1000": 0.69,
+      "2000": 0.65,
+      "4000": 0.65,
+      "selector": "Fieltro"
+    },
+    {
+      "Material": "Lana mineral a granel",
+      "125": 0.06,
+      "250": 0.19,
+      "500": 0.39,
+      "1000": 0.54,
+      "2000": 0.6,
+      "4000": 0.75,
+      "selector": "Lana mineral a granel [1]"
+    },
+    {
+      "Material": "Lana mineral a granel",
+      "125": 0.42,
+      "250": 0.66,
+      "500": 0.73,
+      "1000": 0.74,
+      "2000": 0.76,
+      "4000": 0.8,
+      "selector": "Lana mineral a granel [2]"
+    },
+    {
+      "Material": "Lana mineral",
+      "125": 0.47,
+      "250": 0.53,
+      "500": 0.6,
+      "1000": 0.62,
+      "2000": 0.58,
+      "4000": 0.56,
+      "selector": "Lana mineral"
+    },
+    {
+      "Material": "Lana mineral con lana fina de madera 6,5kg/m3",
+      "125": 0.1,
+      "250": 0.27,
+      "500": 0.5,
+      "1000": 0.68,
+      "2000": 0.56,
+      "4000": 0.48,
+      "selector": "Lana mineral con lana fina de madera 6,5kg/m3"
+    },
+    {
+      "Material": "Lana mineral con cubierta de metal perforado con 10 aberturas de 1,5 mm de diámetro a  1 cm3",
+      "125": 0.09,
+      "250": 0.25,
+      "500": 0.48,
+      "1000": 0.66,
+      "2000": 0.57,
+      "4000": 0.47,
+      "selector": "Lana mineral con cubierta de metal perforado con 10 aberturas de 1,5 mm de diámetro a  1 cm3"
+    },
+    {
+      "Material": "Lana mineral cubierta con yeso acústico perforado",
+      "125": 0.28,
+      "250": 0.037,
+      "500": 0.4,
+      "1000": 0.38,
+      "2000": 0.39,
+      "4000": 0.39,
+      "selector": "Lana mineral cubierta con yeso acústico perforado"
+    },
+    {
+      "Material": "Lana mineral en cojín",
+      "125": 0.32,
+      "250": 0.4,
+      "500": 0.53,
+      "1000": 0.55,
+      "2000": 0.61,
+      "4000": 0.66,
+      "selector": "Lana mineral en cojín"
+    },
+    {
+      "Material": "Lana mineral en elementos tipo dampa",
+      "125": 0.6,
+      "250": 0.85,
+      "500": 0.7,
+      "1000": 0.7,
+      "2000": 0.85,
+      "4000": 0.85,
+      "selector": "Lana mineral en elementos tipo dampa"
+    },
+    {
+      "Material": "Lana mineral con pantalla perforada de fibra de madera: h=4 mm, d=15mm, m=0,017gr/cm2",
+      "125": 0.31,
+      "250": 0.5,
+      "500": 0.7,
+      "1000": 0.41,
+      "2000": 0.29,
+      "4000": 0.29,
+      "selector": "Lana mineral con pantalla perforada de fibra de madera: h=4 mm, d=15mm, m=0,017gr/cm2"
+    },
+    {
+      "Material": "Lana de vidrio",
+      "125": 0.32,
+      "250": 0.4,
+      "500": 0.51,
+      "1000": 0.6,
+      "2000": 0.65,
+      "4000": 0.6,
+      "selector": "Lana de vidrio [1]"
+    },
+    {
+      "Material": "Lana de vidrio",
+      "125": 0.1,
+      "250": 0.15,
+      "500": 0.45,
+      "1000": 0.55,
+      "2000": 0.6,
+      "4000": 0.6,
+      "selector": "Lana de vidrio [2]"
+    },
+    {
+      "Material": "Linoleo",
+      "125": 0.02,
+      "250": 0.025,
+      "500": 0.03,
+      "1000": 0.035,
+      "2000": 0.04,
+      "4000": 0.04,
+      "selector": "Linoleo [1]"
+    },
+    {
+      "Material": "Linoleo",
+      "125": 0.01,
+      "250": 0.01,
+      "500": 0.01,
+      "1000": 0.02,
+      "2000": 0.02,
+      "4000": 0.03,
+      "selector": "Linoleo [2]"
+    },
+    {
+      "Material": "Losetas de yeso seco",
+      "125": 0.02,
+      "250": 0.05,
+      "500": 0.06,
+      "1000": 0.08,
+      "2000": 0.04,
+      "4000": 0.06,
+      "selector": "Losetas de yeso seco"
+    },
+    {
+      "Material": "Madera barnizada",
+      "125": 0.05,
+      "250": 0.04,
+      "500": 0.03,
+      "1000": 0.03,
+      "2000": 0.03,
+      "4000": 0.03,
+      "selector": "Madera barnizada"
+    },
+    {
+      "Material": "Madera ordinaria",
+      "125": 0.16,
+      "250": 0.16,
+      "500": 0.13,
+      "1000": 0.01,
+      "2000": 0.06,
+      "4000": 0.05,
+      "selector": "Madera ordinaria"
+    },
+    {
+      "Material": "Madera barnizada de 1,5 cm con 5 cm de cámara de aire",
+      "125": 0.1,
+      "250": 0.11,
+      "500": 0.1,
+      "1000": 0.08,
+      "2000": 0.08,
+      "4000": 0.11,
+      "selector": "Madera barnizada de 1,5 cm con 5 cm de cámara de aire"
+    },
+    {
+      "Material": "Madera de 3 cm con 5 cm de cámara de aire",
+      "125": 0.25,
+      "250": 0.34,
+      "500": 0.18,
+      "1000": 0.1,
+      "2000": 0.1,
+      "4000": 0.07,
+      "selector": "Madera de 3 cm con 5 cm de cámara de aire"
+    },
+    {
+      "Material": "Madera de 3 cm con 5 cm de cámara rellena de fibra de vidrio",
+      "125": 0.61,
+      "250": 0.65,
+      "500": 0.024,
+      "1000": 0.12,
+      "2000": 0.1,
+      "4000": 0.06,
+      "selector": "Madera de 3 cm con 5 cm de cámara rellena de fibra de vidrio"
+    },
+    {
+      "Material": "Madera de pino barnizada y 5 cm de cámara de aire",
+      "125": 0.1,
+      "250": 0.011,
+      "500": 0.01,
+      "1000": 0.09,
+      "2000": 0.08,
+      "4000": 0.08,
+      "selector": "Madera de pino barnizada y 5 cm de cámara de aire"
+    },
+    {
+      "Material": "Mármol",
+      "125": 0.01,
+      "250": 0.01,
+      "500": 0.01,
+      "1000": 0.02,
+      "2000": 0.02,
+      "4000": 0.01,
+      "selector": "Mármol"
+    },
+    {
+      "Material": "Panel de arborite perforado y peso 150 kg/m3",
+      "125": 0.73,
+      "250": 0.73,
+      "500": 0.73,
+      "1000": 0.72,
+      "2000": 0.84,
+      "4000": 0.8,
+      "selector": "Panel de arborite perforado y peso 150 kg/m3"
+    },
+    {
+      "Material": "Panel de arborite perforado y peso 570 kg/m3",
+      "125": 0.32,
+      "250": 0.4,
+      "500": 0.36,
+      "1000": 0.35,
+      "2000": 0.37,
+      "4000": 0.35,
+      "selector": "Panel de arborite perforado y peso 570 kg/m3"
+    },
+    {
+      "Material": "Panel de arbosilicato de peso 250 kg/m3",
+      "125": 0.6,
+      "250": 0.73,
+      "500": 0.8,
+      "1000": 0.82,
+      "2000": 0.81,
+      "4000": 0.7,
+      "selector": "Panel de arbosilicato de peso 250 kg/m3"
+    },
+    {
+      "Material": "Panel perforado de fibra - yeso",
+      "125": 0.4,
+      "250": 0.8,
+      "500": 0.62,
+      "1000": 0.92,
+      "2000": 0.81,
+      "4000": 0.81,
+      "selector": "Panel perforado de fibra - yeso"
+    },
+    {
+      "Material": "Panel de techo perforado con fibra de vidrio interior",
+      "125": 0.4,
+      "250": 0.6,
+      "500": 0.8,
+      "1000": 0.6,
+      "2000": 0.6,
+      "4000": 0.6,
+      "selector": "Panel de techo perforado con fibra de vidrio interior"
+    },
+    {
+      "Material": "Panel semicilíndrico de contrachapado: d=50  cm, h=20 cm, b=35, 25, 20, 15, 20, 25, 35, 25 cm",
+      "125": 0.25,
+      "250": 0.3,
+      "500": 0.33,
+      "1000": 0.22,
+      "2000": 0.2,
+      "4000": 0.21,
+      "selector": "Panel semicilíndrico de contrachapado: d=50  cm, h=20 cm, b=35, 25, 20, 15, 20, 25, 35, 25 cm"
+    },
+    {
+      "Material": "Panel de spandex o styopor de 15 mm con  4 cm de cámara de aire",
+      "125": 0.51,
+      "250": 0.63,
+      "500": 0.6,
+      "1000": 0.42,
+      "2000": 0.4,
+      "4000": 0.4,
+      "selector": "Panel de spandex o styopor de 15 mm con  4 cm de cámara de aire"
+    },
+    {
+      "Material": "Panel de fibra de madera",
+      "125": 0.47,
+      "250": 0.52,
+      "500": 0.5,
+      "1000": 0.55,
+      "2000": 0.58,
+      "4000": 0.63,
+      "selector": "Panel de fibra de madera"
+    },
+    {
+      "Material": "Panel de pino",
+      "125": 0.098,
+      "250": 0.11,
+      "500": 0.061,
+      "1000": 0.081,
+      "2000": 0.082,
+      "4000": 0.11,
+      "selector": "Panel de pino"
+    },
+    {
+      "Material": "Panel de lana de madera",
+      "125": 0.1,
+      "250": 0.25,
+      "500": 0.4,
+      "1000": 0.5,
+      "2000": 0.6,
+      "4000": 0.6,
+      "selector": "Panel de lana de madera [1]"
+    },
+    {
+      "Material": "Panel de lana de madera",
+      "125": 0.2,
+      "250": 0.5,
+      "500": 0.8,
+      "1000": 0.8,
+      "2000": 0.8,
+      "4000": 0.8,
+      "selector": "Panel de lana de madera [2]"
+    },
+    {
+      "Material": "Panel de lana de madera con 2 cm de cámara aire",
+      "125": 0.1,
+      "250": 0.35,
+      "500": 0.6,
+      "1000": 0.6,
+      "2000": 0.6,
+      "4000": 0.6,
+      "selector": "Panel de lana de madera con 2 cm de cámara aire"
+    },
+    {
+      "Material": "Pavimento de goma",
+      "125": 0.05,
+      "250": 0.06,
+      "500": 0.1,
+      "1000": 0.12,
+      "2000": 0.08,
+      "4000": 0.08,
+      "selector": "Pavimento de goma"
+    },
+    {
+      "Material": "Pavimento de goma sobre cemento",
+      "125": 0.04,
+      "250": 0.04,
+      "500": 0.08,
+      "1000": 0.12,
+      "2000": 0.03,
+      "4000": 0.1,
+      "selector": "Pavimento de goma sobre cemento"
+    },
+    {
+      "Material": "Pavimento de goma espumosa sobre cemento",
+      "125": 0.08,
+      "250": 0.215,
+      "500": 0.35,
+      "1000": 0.475,
+      "2000": 0.6,
+      "4000": 0.6,
+      "selector": "Pavimento de goma espumosa sobre cemento"
+    },
+    {
+      "Material": "Pavimento de terrazo",
+      "125": 0.01,
+      "250": 0.01,
+      "500": 0.01,
+      "1000": 0.02,
+      "2000": 0.02,
+      "4000": 0.02,
+      "selector": "Pavimento de terrazo"
+    },
+    {
+      "Material": "Parquet",
+      "125": 0.04,
+      "250": 0.04,
+      "500": 0.07,
+      "1000": 0.06,
+      "2000": 0.06,
+      "4000": 0.07,
+      "selector": "Parquet"
+    },
+    {
+      "Material": "Parquet sobre asfalto",
+      "125": 0.05,
+      "250": 0.03,
+      "500": 0.06,
+      "1000": 0.09,
+      "2000": 0.1,
+      "4000": 0.22,
+      "selector": "Parquet sobre asfalto"
+    },
+    {
+      "Material": "Parquet sobre listones",
+      "125": 0.2,
+      "250": 0.15,
+      "500": 0.12,
+      "1000": 0.1,
+      "2000": 0.1,
+      "4000": 0.07,
+      "selector": "Parquet sobre listones"
+    },
+    {
+      "Material": "Placa de mineral sobre aglomerado",
+      "125": 0.18,
+      "250": 0.35,
+      "500": 0.83,
+      "1000": 0.86,
+      "2000": 0.82,
+      "4000": 0.82,
+      "selector": "Placa de mineral sobre aglomerado"
+    },
+    {
+      "Material": "Porexpan",
+      "125": 0.3,
+      "250": 0.45,
+      "500": 0.6,
+      "1000": 0.09,
+      "2000": 0.83,
+      "4000": 0.83,
+      "selector": "Porexpan"
+    },
+    {
+      "Material": "Revoco cal – arena",
+      "125": 0.04,
+      "250": 0.05,
+      "500": 0.06,
+      "1000": 0.08,
+      "2000": 0.04,
+      "4000": 0.06,
+      "selector": "Revoco cal – arena"
+    },
+    {
+      "Material": "Revoco de cal",
+      "125": 0.03,
+      "250": 0.03,
+      "500": 0.03,
+      "1000": 0.03,
+      "2000": 0.04,
+      "4000": 0.07,
+      "selector": "Revoco de cal"
+    },
+    {
+      "Material": "Revoco de tirolesa a base de vermiculita",
+      "125": 0.08,
+      "250": 0.09,
+      "500": 0.1,
+      "1000": 0.18,
+      "2000": 0.5,
+      "4000": 0.5,
+      "selector": "Revoco de tirolesa a base de vermiculita"
+    },
+    {
+      "Material": "Revoco de yeso liso de alabastro sobre fondo de madera",
+      "125": 0.02,
+      "250": 0.02,
+      "500": 0.032,
+      "1000": 0.039,
+      "2000": 0.39,
+      "4000": 0.025,
+      "selector": "Revoco de yeso liso de alabastro sobre fondo de madera"
+    },
+    {
+      "Material": "Revoco de yeso no liso de cal sobre fondo de madera",
+      "125": 0.025,
+      "250": 0.045,
+      "500": 0.06,
+      "1000": 0.085,
+      "2000": 0.043,
+      "4000": 0.058,
+      "selector": "Revoco de yeso no liso de cal sobre fondo de madera"
+    },
+    {
+      "Material": "Revoco de yeso liso de cal sobre fondo de madera",
+      "125": 0.024,
+      "250": 0.027,
+      "500": 0.03,
+      "1000": 0.037,
+      "2000": 0.019,
+      "4000": 0.034,
+      "selector": "Revoco de yeso liso de cal sobre fondo de madera"
+    },
+    {
+      "Material": "Tablex",
+      "125": 0.14,
+      "250": 0.2,
+      "500": 0.32,
+      "1000": 0.43,
+      "2000": 0.51,
+      "4000": 0.66,
+      "selector": "Tablex"
+    },
+    {
+      "Material": "Tablex con cámara de aire de 2,5 cm",
+      "125": 0.26,
+      "250": 0.32,
+      "500": 0.34,
+      "1000": 0.43,
+      "2000": 0.45,
+      "4000": 0.51,
+      "selector": "Tablex con cámara de aire de 2,5 cm"
+    },
+    {
+      "Material": "Tablex perforado de 3,5 mm con 2,5 cm de cámara de aire",
+      "125": 0.18,
+      "250": 0.2,
+      "500": 0.26,
+      "1000": 0.29,
+      "2000": 0.31,
+      "4000": 0.2,
+      "selector": "Tablex perforado de 3,5 mm con 2,5 cm de cámara de aire"
+    },
+    {
+      "Material": "Tablex duro de 3,4 mm con 2,5 cm de cámara de aire",
+      "125": 0.18,
+      "250": 0.2,
+      "500": 0.25,
+      "1000": 0.24,
+      "2000": 0.31,
+      "4000": 0.3,
+      "selector": "Tablex duro de 3,4 mm con 2,5 cm de cámara de aire"
+    },
+    {
+      "Material": "Tablex duro de 5 mm con 2,5 cm de cámara de aire",
+      "125": 0.1,
+      "250": 0.11,
+      "500": 0.13,
+      "1000": 0.09,
+      "2000": 0.08,
+      "4000": 0.13,
+      "selector": "Tablex duro de 5 mm con 2,5 cm de cámara de aire"
+    },
+    {
+      "Material": "Tablex perforado con 3 cm de cámar de aire",
+      "125": 0.18,
+      "250": 0.2,
+      "500": 0.26,
+      "1000": 0.39,
+      "2000": 0.31,
+      "4000": 0.31,
+      "selector": "Tablex perforado con 3 cm de cámar de aire"
+    },
+    {
+      "Material": "Techo  de planchas de escayola",
+      "125": 0.02,
+      "250": 0.03,
+      "500": 0.04,
+      "1000": 0.05,
+      "2000": 0.05,
+      "4000": 0.06,
+      "selector": "Techo  de planchas de escayola"
+    },
+    {
+      "Material": "Techo de metal acústico perforado con fibra de vidrio",
+      "125": 0.65,
+      "250": 0.61,
+      "500": 0.8,
+      "1000": 0.95,
+      "2000": 0.92,
+      "4000": 0.92,
+      "selector": "Techo de metal acústico perforado con fibra de vidrio"
+    }
+  ],
+  "rooms": [
+    {
+      "tipo": "Estudio de grabación (control)",
+      "tr": "0,2–0,4 s",
+      "objetivo": "Escucha precisa y control de reflexiones"
+    },
+    {
+      "tipo": "Sala de videoconferencia",
+      "tr": "0,3–0,5 s",
+      "objetivo": "Máxima inteligibilidad de la palabra"
+    },
+    {
+      "tipo": "Aula pequeña",
+      "tr": "0,4–0,6 s",
+      "objetivo": "Comprensión de la voz del profesor"
+    },
+    {
+      "tipo": "Aula de enseñanza secundaria o FP",
+      "tr": "0,5–0,8 s",
+      "objetivo": "Inteligibilidad de la palabra"
+    },
+    {
+      "tipo": "Sala de reuniones",
+      "tr": "0,4–0,6 s",
+      "objetivo": "Conversación clara"
+    },
+    {
+      "tipo": "Despacho individual",
+      "tr": "0,4–0,6 s",
+      "objetivo": "Comunicación y confort acústico"
+    },
+    {
+      "tipo": "Oficina abierta",
+      "tr": "0,5–0,8 s",
+      "objetivo": "Reducir la propagación del ruido y las conversaciones"
+    },
+    {
+      "tipo": "Laboratorio",
+      "tr": "0,5–0,8 s",
+      "objetivo": "Comunicación y control del ruido"
+    },
+    {
+      "tipo": "Sala de conferencias o aula magna",
+      "tr": "0,6–1,0 s",
+      "objetivo": "Comprensión de la palabra a mayor distancia"
+    },
+    {
+      "tipo": "Auditorio para conferencias",
+      "tr": "0,8–1,2 s",
+      "objetivo": "Proyección de la voz y buena inteligibilidad"
+    },
+    {
+      "tipo": "Teatro de palabra hablada",
+      "tr": "0,8–1,3 s",
+      "objetivo": "Equilibrio entre inteligibilidad y naturalidad"
+    },
+    {
+      "tipo": "Sala de ensayo musical",
+      "tr": "0,8–1,5 s",
+      "objetivo": "Adaptación al tipo de música"
+    },
+    {
+      "tipo": "Sala de conciertos de música clásica",
+      "tr": "1,5–2,2 s",
+      "objetivo": "Riqueza y sensación envolvente del sonido"
+    },
+    {
+      "tipo": "Sala de música de cámara",
+      "tr": "1,2–1,6 s",
+      "objetivo": "Equilibrio entre claridad y reverberación"
+    },
+    {
+      "tipo": "Iglesia o lugar de culto",
+      "tr": "1,5–3,0 s o más",
+      "objetivo": "Depende del uso de la voz, el canto y la música"
+    },
+    {
+      "tipo": "Gimnasio o pabellón deportivo",
+      "tr": "1,0–2,0 s",
+      "objetivo": "Control del ruido y comprensión de los avisos"
+    },
+    {
+      "tipo": "Restaurante o cafetería",
+      "tr": "0,6–1,0 s",
+      "objetivo": "Facilitar la conversación"
+    },
+    {
+      "tipo": "Biblioteca",
+      "tr": "0,5–1,0 s",
+      "objetivo": "Reducir el ruido y facilitar la lectura"
+    },
+    {
+      "tipo": "Habitación de hotel",
+      "tr": "0,3–0,6 s",
+      "objetivo": "Confort acústico"
+    }
+  ]
+}
