@@ -1,14 +1,47 @@
 # Calculadora RT60 STI v1.2
 
-Novedades:
-- Evalúa cada banda frente al intervalo RT60 orientativo del tipo de recinto seleccionado.
-- Indica si el resultado está dentro, por encima o por debajo del intervalo.
-- Dibuja un esquema cenital con paredes, ventanas y puertas.
-- Permite situar huecos mediante su distancia desde el inicio de la pared y su ancho.
-- Sugiere medidas acústicas orientativas según el exceso o defecto de reverberación.
+Aplicación didáctica para estimar el tiempo de reverberación de recintos mediante seis bandas de octava: 125, 250, 500, 1000, 2000 y 4000 Hz.
 
-Nota: el esquema cenital utiliza las cuatro primeras paredes como perímetro (dos largas y dos cortas). La evaluación de RT60 usa el intervalo de la hoja Recintos; es una referencia orientativa y no sustituye una especificación normativa o un proyecto acústico.
+## Funcionalidades
 
-La versión 1.1 incorporaba la comparación por bandas de octava de Sabine, Eyring y Millington-Sette. Sabine sigue siendo el método de referencia de la evaluación acústica. Se informa cuando los coeficientes hacen que Eyring o Millington-Sette no sean aplicables.
+- Definición de la geometría del recinto y cálculo de su volumen.
+- Introducción de paredes, suelo y techo con sus dimensiones y materiales.
+- Incorporación de ventanas, puertas y otros huecos, asignándoles su propia superficie y material de absorción.
+- Selección de personas, asientos y elementos discretos desde la base de datos, indicando sus cantidades.
+- Cálculo del RT60 por bandas de octava mediante los métodos de Sabine, Eyring y Millington-Sette.
+- Representación gráfica y comparación de los resultados de los tres métodos.
+- Comparación orientativa de cada banda con el intervalo recomendado para el tipo de recinto seleccionado.
+- Esquema cenital del recinto con la distribución de paredes y huecos.
+- Sugerencias de acondicionamiento acústico cuando los resultados se encuentran fuera del intervalo de referencia.
 
-La versión 1.2 separa la absorción de superficies y la absorción equivalente de elementos discretos en los cálculos de Eyring y Millington-Sette. Sabine mantiene la suma total de absorciones.
+## Archivos
+
+| Archivo | Descripción |
+|---|---|
+| `calculadora_rt60_sti_v1_2.py` | Aplicación principal. |
+| `database.json` | Base de datos de materiales, coeficientes de absorción y tipos de recinto. |
+| `requirements.txt` | Dependencias necesarias. |
+
+**Importante:** descarga también `database.json` y mantenlo en la misma carpeta que el programa Python.
+
+## Instalación y ejecución
+
+Desde una terminal abierta en esta carpeta:
+
+```powershell
+python -m pip install -r requirements.txt
+python -m streamlit run calculadora_rt60_sti_v1_2.py
+```
+
+La aplicación se abrirá en el navegador.
+
+## Consideraciones sobre los resultados
+
+- Sabine, Eyring y Millington-Sette utilizan hipótesis diferentes; sus resultados pueden variar.
+- Los métodos de Eyring y Millington-Sette tienen condiciones de aplicación. La aplicación advierte cuando los coeficientes introducidos no permiten aplicar correctamente una expresión.
+- Los intervalos por tipo de recinto son referencias orientativas procedentes de la base de datos; no sustituyen los requisitos de una norma aplicable ni un estudio acústico profesional.
+- Los resultados dependen de la calidad de los datos geométricos y de los coeficientes de absorción utilizados.
+
+## Versión
+
+Versión publicada: **1.2**.
