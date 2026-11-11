@@ -1,18 +1,26 @@
 # Ficheros Digitales
 
-Aplicaciones Python para el análisis de archivos multimedia y el estudio de sus formatos, contenedores y estructuras internas.
+Aplicaciones Python para analizar archivos multimedia y estudiar sus formatos, contenedores y estructuras internas.
 
-## Aplicaciones
+## Aplicación disponible
 
-- Media Analyzer STI: análisis automático de archivos de audio y vídeo.
+| Programa | Descripción |
+|---|---|
+| [Media Analyzer](media_analyzer.py) | Herramienta para inspeccionar archivos multimedia, consultar información técnica y analizar sus metadatos y estructura. |
+
+## Contenidos de trabajo
+
+- Identificación de formatos y contenedores multimedia.
 - Inspección de cabeceras y estructuras internas.
-- Visualización de metadatos y flujos multimedia.
-- Análisis hexadecimal de archivos.
+- Consulta de metadatos y características de los flujos.
+- Análisis de información técnica de archivos de audio y vídeo.
+- Visualización hexadecimal cuando está disponible.
 
 ## Formatos
 
-WAV, MP3, FLAC, OGG, MP4, MKV, AVI, MOV y otros formatos compatibles.
+La compatibilidad depende de las bibliotecas y herramientas disponibles en el entorno. Entre los formatos de interés se encuentran WAV, MP3, FLAC, OGG, MP4, MKV, AVI y MOV.
 
 ## Ejecución
 
-Las aplicaciones se ejecutan utilizando el entorno Python común de STI.
+Descarga `media_analyzer.py` y ejecútalo con el entorno Python configurado para la práctica. Si la aplicación requiere bibliotecas adicionales, instálalas antes de ejecutarla.
+
